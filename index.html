@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ski Lingo Quiz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="floatGrid.css">
+</head>
+
+<body class="bg-image">
+<main role="main">
+  
+       <header class="appName" role="banner">
+         <div class="row  centerItem">
+           <div class="col-12 game-name-logo">
+            
+               <h5>Ski Lingo Quiz <span class="scoreBoard toTheRight" id="#stringQestion">Question:  <span id="currentQuestion" > 1</span>/10  Score:&nbsp;<span id="quizScore"> 0</span></span></h5> 
+             </div>
+    
+            <div class="scoreBoard">
+              
+             </div>
+            
+      </div>
+     </header>
+    
+    
+    
+    <!-- First Page -->
+    
+    <div id="firstPage" class= "row">
+       <div class="col-12  centerItem">
+          <button id="startButton" class="buttonMargins">Let's Start the Game</button>
+       </div>
+    </div>
+    
+    
+    <!-- Quizz Page -->
+     <p id="endResult"></p>
+    <p id="answerStatus"></p>
+    
+    <div class="mainQuizPage">
+      <form id="form-ski-lingo-quiz" role="form">
+        <p id="questions">Question</p>
+        <div id="answerButtons">
+      </div>
+     </form>
+     </div>
+    
+    
+    <!-- Final Result Page -->
+    
+       <div id="resultPage">
+           <button id="startAgainButton" class="buttonMargins">Play Again</button><br>
+       </div>
+ </main>
+    
+    <footer role="contentinfo">Made for Fun!</footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="game_db.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+A. Application Name:
+   Do you know your ski lingo?
+
+B. Questions:
+   1.What does "wipe out" mean?
+   2.What does "bombing" refer to?
+   3.What does "stomp" mean?
+   4.What is a "kicker"?
+   5.What is "chatter"?
+   6.A "liftie" is...
+   7.What is "jibbing"?
+   8.What's a "dump"?
+   9. As a beginner, you don't want a "gaper gap". This is...
+   10.Do you want to end up being a "shredder" or a "ripper"?
+   Source of the questions:
+   https://kateday.polldaddy.com/s/do-you-know-your-ski-lingo
+   
+C. Will use few image ans colors one as a background.
+D. The basic layout of my prototype is created.
+E. Woorking on HTML wireframe.
+F. Basic design impemented in HTML & CSS
+G. DB of questions and answers created 
+H. Added JS code
+I. CSS
+K. QA test

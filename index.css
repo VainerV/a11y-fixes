@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-image{
+    background-image: url("http://qvcc.edu/wp-content/uploads/2017/01/skiing-2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-color: maroon;
+  
+}
+
+.scoreBoard{
+    width:320px;
+    text-align: left;
+ 
+}
+.game-name-logo{
+    width: 320px;
+    text-align: left; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+  color: red;
+  
+}
+
+button{
+    background-color: darkgreen; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+p{
+   /*margin-top: 10%;*/
+   text-align: center;
+   color: white;
+   font-size: 40px;
+}
+
+header{
+  display: inline;
+}
+
+footer{
+  display: none;
+}
+
+h5{
+  color: white;
+}
+
+#startButton{
+  align-content: center;
+  position: relative;
+  top: 250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.answerButton{
+  width: 275px;
+  
+}
+
+#firstPage{
+ 
+}
+
+#resultPage{
+ /* margin-top: 20%;*/
+  text-align: center;
+}
+
+#startPage{
+ 
+}
+
+.centerItem{
+  text-align: center;
+  
+ 
+}
+
+.appName{
+  font-size: 35px;
+  color: blue;
+  
+  
+  
+}
+
+.buttonMargins{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.mainQuizPage{
+  
+}
+
+.toTheRight{
+  text-align: right;
+  float: right;
+  @media only screen and (max-width: 768px){
+  /* Mobile defaults */
+  .col-3, .col-4, .col-6, .col-12 {
+  float: none;
+  width: 100%;
+} 
+}
+}
+
+#answerStatus{
+  color: none;
+  display: none; 
+  
+}
+
+#endresult{
+  display: none;
+}
+#scoreAlignmnet{
+ 
+}
